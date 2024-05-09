@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    .w3-black, .w3-hover-black:hover {
+        color: #fff !important;
+        background-color: #000000 !important;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <!-- Navbar -->
+    <div class="w3-top" >
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MENU </a>
+        
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">ORDER <i class="fa fa-caret-down"></i></button>     
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="cartegory.html" class="w3-bar-item w3-button">ĐỒ ĂN</a>
+              <a href="cartegory1.html" class="w3-bar-item w3-button">ĐỒ UỐNG</a>
+              
+            </div>
+          </div>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">MÔ HÌNH</a>
+            <a href="#" class="w3-bar-item w3-button">BÚN LÀO</a>
+            <a href="#" class="w3-bar-item w3-button">GỎI</a>
+          </div>
+        </div>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+      </div>
+    </div>
+    
+   <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+   <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="cartegory.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ĐỒ ĂN</a>
+    <a href="cartegory1.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ĐỒ UỐNG</a>
+    
+  </div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+<!-- The Tour Section -->
+<div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">ORDER ĐỒ UỐNG</h2>
+      <p class="w3-opacity w3-center"><i>Please order here!</i></p><br>
+
+     
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="img/trachanhnet.png" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>TRÀ CHANH</b></p>
+           <a href="product copy 6.html"> <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">25.000 VNĐ</button></a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="img/tradaonet.jpeg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>TRÀ ĐÀO</b></p>
+           
+            <a href="product copy 7.html"><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">25.000 VNĐ</button></a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="img/tradaoque.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>TRÀ ĐÀO QUẾ</b></p>
+            
+            <a href="product copy 8.html"><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">25.000 VNĐ</button></a>
+          </div>
+        </div>
+       
+        
+      </div>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+       <div class="w3-third w3-margin-bottom">
+            <img src="img/traoihongnet.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>TRÀ ỔI HỒNG</b></p>
+              
+              <a href="product copy 9.html"><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">25.000 VNĐ</button></a>
+            </div>
+          </div> <div class="w3-third w3-margin-bottom">
+            <img src="img/travainet.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>TRÀ VẢI</b></p>
+              
+             <a href="product copy 10.html"><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">25.000 VNĐ</button></a> 
+            </div>
+          </div> <div class="w3-third w3-margin-bottom">
+            <img src="img/tratacnet.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>TRÀ TẮC</b></p>
+              
+              <a href="product copy 11.html"><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">25.000 VNĐ</button></a>
+            </div>
+          </div> 
+      </div>
+    </div>
+  </div>
+     <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> ĐÀ NẴNG<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0383435600<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: phambao141005@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+    
+
+<!-- app-container -->
+<section class="app-container">
+    <p>Tải ứng dung IVY moda</p>
+    <div class="app-google">
+    <img src="images/Ảnh chụp màn hình 2024-04-24 222100.png">
+    <img src="images/Ảnh chụp màn hình 2024-04-24 222414.png">
+    </div>
+    <p>Nhận bản tin IVY moda</p>
+    <input type="text" placeholder="Nhập email của bạn ... ">
+    </section>
+
+
+ 
+    
+    <!-- footer -->
+    
+    <div class="footer-top">
+        <li><a href=""><img src="images/vku.png" alt=""></a></li>
+        <li><a href=""></a>Lien he</li>
+        <li><a href=""></a> Tuyện dụng</1i>
+        <li><a href=""></a>Gioi thieu</li>
+        <li>
+        <a href="" class="fab fa-facebook-f"></a>
+        <a href="" class="fab fa-twitter"></a>
+        <a href="" class="fab fa-youtube"></a>
+        </li>
+        </div>
+        <div class="footer-center"> 
+            <p>Công ty Co phan Dự Kim với so đang ký kinh doanh: 0105777650 <br>
+        Địa chi đăng ký: To dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam - 0243 205 2222 <br>
+        Đặt hàng online : <b>0246 662 3434</b> .
+        </p></div>
+       
+        <div class="footer-bottom">
+        OIvymoda All rights reserved
+        </div>
+    </body>
+
+    <script src="js/script.js"></script>
+</html>
